@@ -106,13 +106,16 @@
         overflow: hidden;
     }
 
-    &__input:checked+.check__wrapp {
-        border: none;
+    &__input {
+    &:checked + .check__wrapp {
+            border: none;}
     }
 
-    &__input:checked+.check__wrapp .check__icon {
-        opacity: 1;
+    &__input:checked + .check__wrapp {
+        .check__icon {
+        opacity: 1;}
     }
+    
     &__link {
             color: var(--accent-color);
             text-decoration: underline;

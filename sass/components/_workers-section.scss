@@ -40,10 +40,11 @@
             color: rgba(175, 177, 184, 1);
         }
     
-        &__social-link:hover,
-        &__social-link:focus {
+        &__social-link {
+            &:hover,
+            &:focus{
             color: var(--white-text-color);
-        }
+            }}
     
         &__social-icon {
             fill: currentColor;

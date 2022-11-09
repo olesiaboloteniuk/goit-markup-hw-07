@@ -74,33 +74,37 @@
     }
 }
 
+.contacts {
 
-.contacts__item {
-    &:not(:first-child) {
-            margin-left: 30px;
+    &__item {
+            &:not(:first-child) {
+                margin-left: 30px;
+            }
+        }
+    
+        &__link {
+            align-items: center;
+            color: var(--primary-text-color);
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.14;
+            letter-spacing: 0.02em;
+            text-decoration: none;
+            padding: 32px 0;
+            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+            &:hover,
+            &:focus {
+                color: var(--accent-color);
+            }
+        }
+    
+    
+        &__icon {
+            fill: currentColor;
+            margin-right: 10px;
         }
 }
 
-.contacts__link {
-    align-items: center;
-    color: var(--primary-text-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    padding: 32px 0;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-&:hover,
-&:focus {
-    color: var(--accent-color);
-    }
-}
-
-
-.contacts__icon {
-    fill: currentColor;
-    margin-right: 10px;
-}
 
 /* header end */
