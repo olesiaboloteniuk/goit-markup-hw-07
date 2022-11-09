@@ -50,7 +50,7 @@
             border-color: var(--accent-color);
         }
     
-    &:focus+.input-icon {
+    &:focus + .input__icon {
             fill: var(--accent-color);
         }
     

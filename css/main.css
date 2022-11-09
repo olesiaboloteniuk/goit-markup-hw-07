@@ -769,7 +769,7 @@ img {
 .input:focus {
   border-color: var(--accent-color);
 }
-.input:focus + .input-icon {
+.input:focus + .input__icon {
   fill: var(--accent-color);
 }
 .input::-webkit-input-placeholder {
