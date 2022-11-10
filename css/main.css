@@ -793,6 +793,7 @@ img {
 }
 
 .textarea {
+  margin-bottom: 20px;
   height: 120px;
   resize: none;
 }
